@@ -36,7 +36,10 @@ gap: 25px;
     display: flex;
     flex-direction:column;
     gap: 7px;
+    font-weight: 200;
+
 }
+
 
 
 ul li {
@@ -57,11 +60,31 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
 
 }
 
+nav ul li {
+    text-align: center;
+    font-size:15;
+    
+
+}
 nav ul li:hover{
 font-size: 25px; 
-transition: font-size 6s;
+transition: font-size 2s;
 }
+
+.nombre {
+    font-weight: 900;
+}
+.trabajo {
+    font-weight: 600;
+}
+
+.descripcion {
+    font-weight: 100;
+}
+
