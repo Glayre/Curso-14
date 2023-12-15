@@ -78,7 +78,7 @@ transition: font-size 2s;
 }
 
 .nombre {
-    font-weight: 900;
+    font-weight: 800;
 }
 .trabajo {
     font-weight: 600;
@@ -87,4 +87,20 @@ transition: font-size 2s;
 .descripcion {
     font-weight: 100;
 }
+
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.redes a{
+  font-size: 50px;
+}
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 

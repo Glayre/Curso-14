@@ -1,9 +1,21 @@
 /* Mi primer comentario*/
+:root{
+    --main_color: purple;
+    second_color: yellow;
+}
+
 h3 {
-    color: purple;
+    color: var(--main_color);
 
 }
 #container {
     background-color: red;
 }
 
+.subtitulo{
+    color: aquamarine;
+}
+
+ul li h2{
+    color: cadetblue;
+}
