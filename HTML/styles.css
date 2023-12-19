@@ -30,7 +30,7 @@ gap: 25px;
 } 
 
 
-. .columna ul {
+.columna ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -68,7 +68,7 @@ footer {
 
 nav ul li {
     text-align: center;
-    font-size:15;
+    font: size 15pz;;
     
 
 }

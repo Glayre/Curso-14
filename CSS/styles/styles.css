@@ -4,6 +4,17 @@
     second_color: yellow;
 }
 
+* {padding: 0;
+margin: 0;
+}
+
+body {
+padding: 20px 32 px;
+    
+}
+.subtitulo
+.parrafo
+
 h3 {
     color: var(--main_color);
 
@@ -19,3 +30,128 @@ h3 {
 ul li h2{
     color: cadetblue;
 }
+#prueba {
+width: 200px;
+height: 200px;
+background-color: brown;
+font-weight: 900;
+font-size: 34px;
+font-family: 'Courier New', Courier, monospace;
+color: yellow;
+text-align: center;
+text-decoration: underline;
+text-decoration-color: darkblue;
+text-transform: uppercase;
+letter-spacing: 10px;
+word-spacing: 20px;
+line-height: 100px;
+/*trabajar con borde*/
+border-color: blue;
+border-style: groove;
+border-width: 30px;
+ /*atajo para trabajar con border*/
+border: 30px blue 30px;
+border-radius: 100%;
+/*margen es una distancia entre un elemento con respecto a otro
+*/
+    margin: 1oopx 200px 0 50px;
+/*padin es la distancia del borde de la caja con respecto a su contenido*/
+padding: 200px;
+/*anchura y altura minima*/
+min-width: 100px;
+min-height: 100px;
+/*anchura y altura maxima*/
+max-width: 700px;
+max-height: 700px;
+/*Existe diversas formas de colocar colores
+en CCS, una de ellas es mencionar el color del
+idioma ingles, pero tambien puedes usar
+codigo hexadecimal, RGB, HSL
+*/
+/*color: #SAAADB;
+color: #faebd7d7
+color: rgb (0,0,0);
+color: rgba(255, 50, 20, 0.50)
+color: hsl(0,100%, 50%)
+*/
+opacity: 80%;
+/* rem hace referencia a un tamaño por default que
+el navegador tiene, esta medida es relativa 
+pues el tamaño por default puede cambiar segun 
+el ancho del navegador, decir 3rem es decir 
+3 veces ese tamaño por default 
+EM hace referencia al tamaño por default del
+elemento HTML en el
+
+font-size: 3rem;
+
+vh = viewport heigth (altura del navegador)
+vw= viewport width (ancho del navegador)
+
+
+*/
+
+height: 100vb;
+width: 100vw;
+
+/*
+Desaparece el elemento
+display: none;
+*/
+/* display flex hace una fila automaticamente*/
+display: flex;
+-ms-flex-direction: column;
+
+/*justify content eje rincipal*/
+justify-content: center;
+
+/*align items eje secundario*/
+align-items: center;
+
+
+}
+
+
+/* 
+el important hace que este estilo tenga la maxima
+prioridad 
+ 
+h2{
+    color: red !important;
+}
+*/
+
+/*
+pseudo clases
+manejan los estados de un elemento
+*/
+
+#prueba:hover{
+background-color: cadetblue;
+padding: 0;
+}
+
+a:visited{
+    color: red;
+}
+
+a:link{
+    color: aqua;
+}
+
+/* realiza una pagina para Movistar
+la cual tiene que mostrar una barra de navegacion
+que te permita conocer sus productos y servicios
+
+la pagina principal debe mostrar de forma muy 
+resumida, estos productos y servicios.
+
+el diseño y colores, quedan por parte de estudiante
+puede incluso rediseñar el estilo visual de Movistar
+
+Fecha de entrega 12-12-23
+
+
+
+
+*/

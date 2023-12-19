@@ -1,0 +1,168 @@
+/* General*/
+* {
+  padding: 0;
+  margin: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+body {
+  background: rgb(32, 30, 39);
+  background: linear-gradient(
+    to bottom,
+    #67bee9 0%,
+    #f7f7f7 0%,
+    #f5f6f7 0%,
+    #f7fafc 0%,
+    #f2f5f8 0%,
+    #f4f5f7 0%,
+    #f6f8fa 0%,
+    #f8fbfd 0%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+
+/* estilos internet*/
+
+#header {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+ul, 
+ol {
+  list-style: none;
+}
+/*Nav*/
+/* Navegador internet*/
+nav li a {
+  color: grey;
+  list-style: none;
+}
+.nav li a {
+  background-color: rgb(232, 240, 250);
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.footer p {
+  align-items: center;
+  padding: 0;
+  margin: 5px;
+}
+
+.nav li a:hover {
+  background-color: rgb(55, 178, 235);
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li ul {
+  display: none;
+  position: sticky;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position:sticky;
+}
+
+.nav li ul {
+  right: -140px;
+  top: 0px;
+}
+
+/* Navegador curso*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  color: rgb(39, 38, 38);
+  font-weight: 300;
+}
+nav div p {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  gap: 22px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+button {
+  background-color: rgb(241, 231, 231);
+  color: rgb(39, 39, 39);
+  font-weight: 900;
+  padding: 6px 12px;
+  border-radius: 120px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 1s, color 1s, outline 1s;
+}
+button {
+  background-color: rgb(92, 177, 247);
+  color: rgb(241, 243, 245);
+  outline: 2px rgb(169, 219, 245) solid;
+}
+nav div p,
+nav div img {
+  cursor: pointer;
+  color: gray;
+  font-weight: 400;
+  transition: text-decoration 1s, font-weight 1s;
+  align-items: center;
+}
+nav div p:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+/*Section*/
+main section .columna {
+  justify-content: center;
+  align-items: center;
+  gap: 20pz;
+  padding: 0 1px;
+  color: rgb(22, 22, 22);
+  text-align: center;
+}
+
+.columna h1 {
+  font-weight: 900;
+}
+.columna p {
+  font-weight: 300;
+}
+.columna button {
+  font-size: 18px;
+}
+
+#solicitud{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+
+
+}
+#contáctanos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+
+}
